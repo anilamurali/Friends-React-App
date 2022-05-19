@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Nav from './Nav'
 
 const Viewfriend = () => {
         var [viewlist,setViewlist]=useState([])
@@ -14,7 +15,9 @@ const Viewfriend = () => {
         )
     
   return (
-    <div><div>
+    <div>
+        <Nav/>
+        <div>
 
     <div>
 

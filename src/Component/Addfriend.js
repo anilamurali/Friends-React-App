@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Nav from './Nav'
 
 const Addfriend = () => {
     var [name,setName]=useState("")
@@ -25,7 +26,9 @@ const Addfriend = () => {
 
 
   return (
-    <div><div class="container">
+    <div>
+        <Nav/>
+        <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="row g-3">
